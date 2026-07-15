@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Category": "Date and Time",
+        "Description": "Standard Clock widget with time and date underneath, with custom font options",
+        "Icon": "clock",
+        "Id": "local.widget.color-clock",
+        "Name": "Color Clock",
+        "KPackageStructure": "Plasma/Applet",
+        "Version": "1"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time"
+    ]
+}
