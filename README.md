@@ -2,7 +2,9 @@
 
 A KDE Plasma panel widget that displays the current time and date with fully customisable fonts and colours.
 
-![Activity Switcher](colorclock.png) ![Activity Switcher](clock-expand.png) ![Activity Switcher](desktop-1.png)
+![colorclock](color-clock.png)
+
+![colorclock](clock-expand.png) ![colorclock](desktop-1.png)
 
 ## Features
 
