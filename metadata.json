@@ -6,7 +6,7 @@
         "Id": "local.widget.color-clock",
         "Name": "Color Clock",
         "KPackageStructure": "Plasma/Applet",
-        "Version": "1"
+        "Version": "1.01"
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API-Minimum-Version": "6.0",

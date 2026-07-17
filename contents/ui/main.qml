@@ -15,8 +15,8 @@ PlasmoidItem {
     Layout.minimumHeight: Kirigami.Units.gridUnit * 2.5
 
     compactRepresentation: Item {
-        Layout.preferredWidth: container.width
-        Layout.preferredHeight: container.height
+        Layout.preferredWidth: container.implicitWidth
+        Layout.preferredHeight: container.implicitHeight
 
         Column {
             id: container
@@ -59,7 +59,7 @@ PlasmoidItem {
 
         Timer {
             id: timer
-            interval: 1000
+            interval: 30000
             running: true
             repeat: true
             triggeredOnStart: true
@@ -125,7 +125,7 @@ PlasmoidItem {
 
                 Timer {
                     interval: 500
-                    running: true
+                    running: root.expanded
                     repeat: true
                     triggeredOnStart: true
                     onTriggered: {
