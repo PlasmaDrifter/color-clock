@@ -1,40 +1,52 @@
-# Color Clock
+# Color Clock Widget
 
-A KDE Plasma panel widget that displays the current time and date with fully customisable fonts and colours.
+[![KDE Plasma 6](https://img.shields.io/badge/KDE_Plasma-6.0+-3152A0?style=for-the-badge&logo=kde&logoColor=white)](https://kde.org/plasma-desktop/)
+[![QML](https://img.shields.io/badge/UI-QML%2FQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://doc.qt.io/qt-6/qtqml-index.html)
+[![Category](https://img.shields.io/badge/Clock%20%26%20Time-FF9500?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/PlasmaDrifter)
+[![License](https://img.shields.io/badge/License-GPLv2-blue.svg?style=for-the-badge)](LICENSE)
 
-![colorclock](color-clock.png)
+A vibrant, customizable colored digital clock and calendar widget for KDE Plasma 6.
 
-![colorclock](clock-expand.png) ![colorclock](desktop-1.png)
+---
+
+## Previews
+
+![Color Clock Widget Preview](color-clock.png)
+
+![Color Clock Widget Preview](clock-expand.png)
+
+![Color Clock Widget Preview](desktop-1.png)
+
+---
 
 ## Features
 
-- Large, readable time display
-- Date shown underneath
-- Custom font family, size, and colour for both time and date
-- Adapts to horizontal and vertical panels
-- Lightweight — no network requests
+- **Custom**: color picking for time digits and date text
+- **Expanded**: calendar popup view
+- **12-hour**: and 24-hour time format options
+- **Transparent**: desktop blending
 
 ## Requirements
 
-- KDE Plasma 6.0+
+- **Environment**: KDE Plasma 6.0 or higher
+- **Framework**: Qt6 QML / Plasma Applet API
 
 ## Installation
 
+### Option 1: Git Clone (Recommended)
 ```bash
-cd ~/.local/share/plasma/plasmoids/
-git clone https://github.com/PlasmaDrifter/color-clock local.widget.color-clock
+mkdir -p ~/.local/share/plasma/plasmoids/
+git clone https://github.com/PlasmaDrifter/color-clock.git ~/.local/share/plasma/plasmoids/local.widget.color-clock
 ```
 
-Then right-click your panel → **Add Widgets** → search for **Color Clock**.
+### Option 2: Plasma Package Installer
+```bash
+kpackagetool6 -i ~/.local/share/plasma/plasmoids/local.widget.color-clock
+```
 
-## Configuration
+Then right-click your desktop or panel $\rightarrow$ **Add Widgets...** and search for the widget name.
 
-Right-click the widget → **Configure…**
+## Credits & License
 
-| Option | Description |
-|--------|-------------|
-| Time font | Font family and size for the time display |
-| Date font | Font family and size for the date display |
-| Time colour | Colour of the time text |
-| Date colour | Colour of the date text |
-
+- **Author / Maintainer**: PlasmaDrifter
+- **License**: Licensed under the [GPLv2](LICENSE).
